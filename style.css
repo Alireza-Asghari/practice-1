@@ -91,3 +91,45 @@ html,body{
         
     }
 }
+@media screen and (min-width: 100px) and (max-width:400px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-box{
+        height: 400px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .top-box{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .buttom-box{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div1{
+        background-color: rgb(19, 58, 109);
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        
+    }
+    .div{
+        background-color: rgb(173, 12, 12);
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+    }
+}
